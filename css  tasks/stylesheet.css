@@ -1,0 +1,49 @@
+
+.text1 {color: chocolate;}
+.text2 {color: black;}
+.text3 {background-image:url(pink.jpg)}
+
+
+
+.h11 {color: chocolate; font-size:  50px;;}
+.h12 { text-align: right; font-family:Arial, Helvetica, sans-serif}
+.h13 {font-family: 'Courier New', Courier, monospace; font-weight: bolder; font-size:x-large ;}
+.h14 { font-family: 'Courier New', Courier, monospace; text-align: right; font-size: 50px;}
+
+
+.rounded {
+    
+    border-spacing: 20px;
+    border-collapse: separate;
+    width: 25%;
+}
+
+.rounded th, .rounded td {
+    box-shadow: 0 0 10px ;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    border-radius: 10px; /* Rounded corners */
+}
+
+body {
+    background-color: rgb(208, 194, 194); /* Set the background color for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+
+.all1 { border: 1px solid black; /* 1px solid black border */
+    padding: 10px; /* Add some padding inside the border */;
+background-color: white;}
+
+.all2 { border: 1px dashed black; /* 1px dashed black border */
+    padding: 10px; /* Add some padding inside the border */ ;
+    background-color: white;}
+    .heading2 { border: 1px dashed rgb(240, 11, 11);}
+    .all3 {background-color: white;border: 1px solid black; /* 1px solid black border */
+        padding: 10px; /* Add some padding inside the border */ ; color: blueviolet;
+    }
+    .bg-orange{background-color: chartreuse;}
+    .bg-yellow {background-color: yellow;}
