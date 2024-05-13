@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exersice #1</title>
+    
+    <style>
+        .square { 
+           
+            width: 300px;
+            height: 300px;
+            background-color: #ffffcc; /* light yellow */
+            border: 2px solid black; /* border around the square */
+            padding: 20px;
+        } 
+        
+        .rectangle {
+            width: 300px;
+            height: 25px;
+            background-color: #ffffcc; /* light yellow */
+            border: 2px solid black; /* border around the rectangle */
+            padding: 20px;
+        }
+
+        
+    </style>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Our first form !</h1>
+    <form action="/action_page.php">
+        <label for="fname">Username:</label><br>
+        <input type="text" id="uname" name="uname" value=><br>
+        <label for="psw">Password:</label><br>
+        <input type="text" id="lname" name="lname" value=><br><br>
+        <input type="submit" value="login">
+      </form>  
+      <hr>
+      <br><br>
+      <!--exersice number 2-->
+      <table border="1" cellpadding="20" cellspacing="0">
+       
+           
+        
+        
+            <td><label for="uname">First name:</label></td>
+            <td><input type="text" id="uname" name="uname"></td>
+        
+        <tr>
+            <td><label for="lname">Last name:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <form>
+               <td> <input type="radio" id="male" name="Gender" value="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female">Female</label><br>
+                 
+              </form>
+        </tr>
+        <tr>
+            <td>Choose a city :</td>
+            <td>
+                <form>
+                    <label for="city">city:</label>
+                    <select id="city" name="city">
+                        <option value="amman">amman</option>
+                        <option value="irbid">irbid</option>
+                        <option value="karak">karak</option>
+                        <option value="petra">petra</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>  
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="sign up"></td>
+        </tr>
+    
+
+        </tr>
+    </table>
+
+    <hr>
+    
+
+
+
+
+    <div class="square">
+        <form>
+            <fieldset>
+
+            <legend>personal details:</legend>
+          
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        </form>
+    </div>
+    <br>
+    <div class="rectangle">
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="newyork">New York</option>
+            <option value="losangeles">Los Angeles</option>
+            <option value="chicago">Chicago</option>
+            <option value="houston">Houston</option>
+        </select>
+    </div> 
+    
+
+
+
+
+
+    
+    <hr> 
+    <h3>what is your fav pet ?</h3>
+    <table border="1">
+        <tr>
+            <th>pet image</th>
+            <th>facts about the animal</th>
+        </tr>
+        <tr>
+            <td> <img src="cat.webp" alt="cat" width="200" height="150">
+
+            </td>
+            <td> <a href="https://www.scientificamerican.com/article/the-6-most-intriguing-things-we-learned-about-pet-cats-and-dogs-this-year/">cats</a>
+
+
+            </td>
+        </tr>
+        <tr>
+            <td><img src="cockatiels-as-pets-1236728-01-cda01e8ea94a4583aea3524655523509.jpg" alt="birds" width="200" height="150"></td>
+            <td><a href="https://www.scientificamerican.com/article/the-6-most-intriguing-things-we-learned-about-pet-cats-and-dogs-this-year/">birds</a></td>
+        </tr>
+        <tr>
+            <td><img src="dog-puppy-on-garden-royalty-free-image-1586966191.jpg" alt="dog" width="200" height="150"></td>
+            <td><a href="https://www.scientificamerican.com/article/the-6-most-intriguing-things-we-learned-about-pet-cats-and-dogs-this-year/">dogs</a></td>
+        </tr>
+    </table>
+<hr>
+
+<table>
+    <thead>
+<tr>
+<td>Day/period</td>
+<td>9:30-10:30</td>
+<td>10:30-11:30</td>
+<td>11:30-12:30</td>
+<td>12:30-1:30</td>
+<td>1:30-2:30</td>
+<td>2:30-3:30</td>
+<td>3:30-4:30</td>
+<td>4:30-5:30</td>
+
+</tr>
+</thead>
+
+<tbody>
+
+1<tr>
+    <td>Monday</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+   <td>1 </td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+</tbody>
+</tr>
+
+2<tr>
+    <td>Tuesday</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td></tr>
+3<tr>
+    <td>Wednesday</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td></tr>
+4<tr>
+    
+    <td>Thursday</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td></tr>
+5<tr>
+    <td>Friday</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td></tr>
+7<tr>
+    <td>Satueday</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td></tr>
+<tr></tr>
+<tr></tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <h1>Nested List</h1>
+
+    <ol type="I">
+        <li>List Item 1</li>
+        <ol type="a" > 
+            <li>nested item 1.1</li>
+            <li>nested item 1.2</li>
+        </ol>
+
+        <li>List Item 2</li>
+        <ol type="1"> 
+            <li>nested item 2.1</li>
+            <li>nested item 2.2</li>
+            <ul> 
+                <li>nested item 2.2.1</li>
+                <li>nested item 2.2.2</li>
+                <ul> 
+                    <li>nested item 2.2.2.1</li>
+                    <li>nested item 2.2.2.2</li>
+                    
+                </ul>
+            <li>nested item 2.2.3</li>
+            </ul>
+            <li>Nested Item 2.3</li>
+
+        </ol>
+
+        <li>List Item 3</li>
+        <ul>
+            <li>nested item 3.1</li>
+            <li>nested item 3.2</li>
+            <li>nested item 3.3</li>
+            
+        </ul>
+    </ol>
+      
+
+
+
+</body>
+</html>
