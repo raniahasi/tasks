@@ -13,37 +13,42 @@
             align-items: center;
             justify-content: space-around;
         }
-        .div-2 {
+        .child {
             border: 1px solid black ;
-            width: 170px;
+            width: 300px;
             height: 1100px;
             text-align: center;
             display: flex;
             flex-direction: column;
              
         }
-        .div-1 {
+        .parent {
             display: flex;      
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-            width: 600px;
-            position: relative;
+            width: 3000px;
+            
              
 
         }
         .footer {
-            width: 170px;
-            height: 40px;
-            background-color: rgb(85, 85, 85);
-            position: absolute;
-            bottom: 0px;
+            margin-top: auto;
+    background-color: #000000;
+    border-top: 1px solid #120f0f;
+    padding: 5px;
+    border-radius: 0 0 5px 5px; 
+    text-align: center;
         }
-        .footer-p {
+        .footer {
             color: white;
             position: relative;
             top: 10px;
+            text-align: center;
         }
+
+        .img { flex: 1;
+        object-fit: cover;}
         
     </style>
 
@@ -51,24 +56,28 @@
 </head>
 <body>
     
-    <div class="div-1">
+    <div class="parent">
         
-    <div class="div-2">
+    <div class="child">
         <h3>A short heading</h3>
-        <img  height="150px" width="170px" src="cat1.jpg">
+        <img src="cat1.jpg"> 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nostrum dignissimos veniam, odio ea nisi numquam nemo officiis dolorem, facilis quidem molestiae voluptatibus pariatur culpa eos quae non aliquam ducimus.</p>
     </div>
-    <div class="div-2">
+
+
+    <div class="child">
         <h3>A short heading</h3>
-        <img  height="150px" width="170px" src="cat2.jpg">
+        <img src="cat2.jpg">
         <p> short content </p>
-        <div class="footer"> <span class="footer-p">I have a footer</span></div>
+        <div class="footer">Footer 3</div>
     </div>
-    <div class="div-2">
+
+
+    <div class="child">
         <h3>A short heading</h3>
-        <img  height="150px" width="170px" src="cat3.jpg">
+        <img src="cat3.jpg">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nostrum dignissimos veniam, odio ea nisi numquam nemo officiis dolorem, facilis quidem molestiae voluptatibus pariatur culpa eos quae non aliquam ducimus.</p>
-        <div class="footer"> <span class="footer-p">I have a footer</span></div>
+        <div class="footer">Footer 3</div>
     </div>
     </div>
     </div>

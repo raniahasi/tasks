@@ -24,13 +24,13 @@
             margin: 1px;
 
         }
-        .container {
+        .parent {
             border: 1px dashed black;
             display: flex;
             flex-direction: row;
             position: relative;
         }
-        .g-relative {
+        .green-relative {
             height: 70px;
             width: 70px;
             background-color: green;
@@ -39,7 +39,7 @@
             top: 12px;
             left:12px;
         }
-        .g-absolute {
+        .green-absolute {
             height: 70px;
             width: 70px;
             background-color: green;
@@ -54,7 +54,7 @@
 <body>
     
     <h4>position: static</h4>
-    <div class="container">
+    <div class="parent">
         <div class="red">One</div>
         <div class="green">Two</div>
         <div class="red">Three</div>
@@ -63,9 +63,9 @@
 
     <h4>position: relative</h4>
     <div>
-        <div class="container">
+        <div class="parent">
             <div class="red">One</div>
-            <div class="g-relative">Two</div>
+            <div class="green-relative">Two</div>
             <div class="red">Three</div>
             <div class="red">Four</div>
         </div>
@@ -73,9 +73,9 @@
 
     <h4>position: absolute</h4>
     <div>
-        <div class="container">
+        <div class="parent">
             <div class="red">One</div>
-            <div class="g-absolute">Two</div>
+            <div class="green-absolute">Two</div>
             <div class="red">Three</div>
             <div class="red">Four</div>
         </div>
