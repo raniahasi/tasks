@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            text-align: center;
+        }
+
+        .container div { 
+            display: flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+            width: 50%;
+            flex-flow: column wrap;
+            height: 500vh;
+            align-items: center;
+            justify-content: center;
+           
+            
+}
+
+
+
+        .column1 {  background-color: crimson; color: white; font-size: x-large;
+        }
+        .column2 {  background-color: chocolate; color: white; font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column1">first part</div>
+        <div class="column2">second part</div>
+    </div> 
+</body>
+</html>
