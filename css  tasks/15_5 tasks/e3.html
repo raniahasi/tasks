@@ -2,21 +2,36 @@
 <html>
 <head>
 <style>
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
-    grid-gap: 10px; /* Gap between grid items */
+
+
+body { background-color: bisque; margin-left: 30px;margin-right: 30px;
 }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  text-align: center;
-}
+
+.grid-container {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  
+  
+  /* 3 columns with equal width */
+ 
+  
+ row-gap: 10px;
+  column-gap: 10px;
+  background-color: bisque;
+  width: 100%;}
+
+
+img { width:300px;height:200px;}
+
+
 .grid-item img {
-    width: 50%; /* Ensure images don't exceed their container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Optional: Add rounded corners to images */
+  
+        
+background-color: rgba(255, 255, 255, 0.8);
+
+ width:100%; height: 100%;
 }
 
 </style>
@@ -29,12 +44,13 @@
   <div class="grid-item"><img src="0.jpg" alt=""></div>
   <div class="grid-item"><img src="0.jpg" alt=""></div>
   <div class="grid-item"><img src="0.jpg" alt=""></div>  
+  <div class="grid-item"><img src="Chi.jpg" alt=""></div>
+  <div class="grid-item"><img src="il_1080xN.4841036310_5pjz.webp" alt=""></div>
+  <div class="grid-item"><img src="cat5.jpg" alt=""></div>  
   <div class="grid-item"><img src="0.jpg" alt=""></div>
   <div class="grid-item"><img src="0.jpg" alt=""></div>
-  <div class="grid-item"><img src="0.jpg" alt=""></div>  
-  <div class="grid-item"><img src="0.jpg" alt=""></div>
-  <div class="grid-item"><img src="0.jpg" alt=""></div>
-  <div class="grid-item"><img src="" alt=""></div>  
+  
+  
 </div>
 
 </body>

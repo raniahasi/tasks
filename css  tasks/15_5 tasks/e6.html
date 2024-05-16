@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+      
+    body {
+        margin: 0;
+        padding: 0;
+      }
+
+
+    header {  position: relative;
+      
+      height: 80vh;
+      width: 100%;
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761_640.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;}
+
+      .head1 {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+      }
+      .head1 button {background-color: #0b0c10;
+        color: white;
+        padding: 1%;
+        margin-top: 50px;}
+
+        h2,
+      h4,
+      p {
+        margin: 0;
+        padding-top: 5px;
+      }
+
+
+      .section1 {
+        background-color: #c5c6c7;
+        text-align: center;
+        height: 20vh;
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card-container {
+        background-color: #1f2833;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+      }
+      .card {
+        background-color: white;
+        margin: 15px;
+        text-align: center;
+      }
+      .card img {
+        width: 100%;
+      }
+
+      .card h4,
+      p {
+        margin: 10px;
+      }
+
+      .section3 {
+        background-color: white;
+        text-align: center;
+        padding: 3%;
+      }
+
+      .section3o {
+        text-align: center;
+        display: flex;
+      }
+
+      .contact {
+        background-color: #a0a9a9;
+        padding: 3%;
+        width: 50%;
+      }
+
+      .about {
+        background-color: #dcdfde;
+        padding: 3%;
+        width: 50%;
+      }
+
+      footer {
+        background-color: #0b0c10;
+        color: white;
+        text-align: center;
+        height: 10vh;
+      }
+      
+      footer p {
+        margin: 0;
+        padding-top: 5px;
+      }
+      @media only screen and (max-width: 767px) {
+        header {
+          height: 40vh;
+        }
+      
+        .start {
+          font-size: 1rem;
+        }
+      
+        .card-container {
+          grid-template-columns: 1fr;
+        }
+      
+        .section3 {
+          flex-wrap: wrap;
+        }
+        .phead1{font-size: 10px;} 
+        .h2head1 {font-size: 20px}
+        .contact,
+        .about {
+          width: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div class="head1">
+          <h2 class="h2head1">Welcome to Responsive Web</h2>
+          <p class="phead1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+            Tenetur cum voluptatem est eligendi porro assumenda corrupti sunt deserunt iusto soluta</p>
+            <button>Read more</button>
+        </div>
+    </header>
+
+        <div class="section1">
+            <h2 class="section1">Responsive Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
+              suscipit enim dolores obcaecati totam repellat, quos ad hic cum nesciunt
+              molestiae quidem aspernatur delectus ratione, pariatur neque sapiente
+              quisquam reprehenderit!
+            </p>
+          </div>
+    
+
+        <div class="card-container">
+            <div class="card">
+                <h2>why responsive?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    ! Quo perferendis vel accusamus</p>
+                     <img src="wp_computer-472016_1920.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <h2>Some Experience </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.! Quo perferendis vel accusamus</p>
+                    <img src="wp_computer-472016_1920.jpg" alt=""> 
+            </div>
+
+
+            <div class="card">
+                <h2>Improve Your Accessibility</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     ! Quo perferendis vel accusamus.</p>
+                     <img src="wp_computer-472016_1920.jpg" alt="">
+            </div>
+        </div>
+        <!-- must be section class -->
+        <div class="section3">
+            <h4>Develop Your Website</h4>
+            
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non animi fuga
+        nesciunt? Temporibus vitae aut numquam aliquid.</p>
+        </div>
+
+
+
+
+        <div class="section3o">
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+                  illo earum fuga aliquid voluptatibus nulla.
+                </p>
+                <a href="mailto:info@webresponsive.com">info@webresponsive.com</a>
+              </div>
+        
+              <div class="about">
+                <h4>About Us</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+                  illo earum fuga aliquid voluptatibus nulla.
+                </p>
+                <a href="#">www.webresponsive.com</a>
+              </div>
+              </div>
+
+
+              <footer>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur
+                  <a href="#">adipisicing elit. Nam.</a>
+                </p>
+              </footer>
+      
+
+
+    
+</body>
+</html>
+
